@@ -1,0 +1,16 @@
+{
+  "name": "simple-react-native-web-full-stack",
+  "version": "1.0.0",
+  "description": "Template to make full stack apps using React-native-web, React-native, Express and Webpack",
+  "main": "src/server/index.js",
+  "scripts": {
+    "client": "cd src/client && concurrently \"yarn start\" \"yarn web\"",
+    "server": "cd src/server && yarn test",
+    "dev": "concurrently \"yarn server\" \"yarn client\""
+  },
+  "author": "WDS Production House",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^4.1.0"
+  }
+}
