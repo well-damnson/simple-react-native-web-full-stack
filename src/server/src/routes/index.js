@@ -1,6 +1,6 @@
-import homeRoutes from "./home";
+import homeRoutes from './home';
 
-let routes = app => {
+let routes = (app) => {
   homeRoutes(app);
 };
 

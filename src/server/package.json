@@ -22,5 +22,11 @@
     "@babel/preset-env": "^7.3.1",
     "eslint": "5",
     "nodemon": "^1.18.9"
+  },
+  "prettier": {
+    "bracketSpacing": false,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "arrowParens": "always"
   }
 }
