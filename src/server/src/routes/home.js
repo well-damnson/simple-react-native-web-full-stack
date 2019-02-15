@@ -1,3 +1,7 @@
+//@flow
+
+let path = '/';
+
 export default (app) => {
-  app.get('/', (req, res) => res.send('Hello World!'));
+  app.get(path, (req, res) => res.send('Hello World!'));
 };
