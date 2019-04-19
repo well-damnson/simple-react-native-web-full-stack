@@ -9,10 +9,12 @@
     "ios": "expo start --ios",
     "eject": "expo eject",
     "web": "webpack-dev-server --mode development --devtool inline-source-map --hot",
-    "test": "echo \"Error: no test specified\""
+    "test": "echo \"Error: no test specified\"",
+    "dev": "concurrently \"yarn start\" \"yarn web\""
   },
   "author": "WDS Production House",
   "dependencies": {
+    "concurrently": "^4.1.0",
     "eslint": "5",
     "expo": "^32.0.0",
     "react": "16.5.0",
