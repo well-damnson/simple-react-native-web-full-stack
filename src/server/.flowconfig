@@ -1,0 +1,16 @@
+[ignore]
+node_modules/**
+.cache/**
+
+[include]
+src/**
+
+[libs]
+
+[lints]
+
+[options]
+emoji=true
+include_warnings=true
+
+[strict]

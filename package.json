@@ -6,7 +6,10 @@
   "scripts": {
     "client": "cd src/client && concurrently \"yarn start\" \"yarn web\"",
     "server": "cd src/server && yarn test",
-    "dev": "concurrently \"yarn server\" \"yarn client\""
+    "dev": "concurrently \"yarn server\" \"yarn client\"",
+    "client:install": "cd src/client && yarn",
+    "server:install": "cd src/server && yarn",
+    "install": "concurrently \"yarn server:install\" \"yarn client:install\""
   },
   "author": "WDS Production House",
   "license": "ISC",
